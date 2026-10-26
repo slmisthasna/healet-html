@@ -1,0 +1,71 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOGf06+VKOqThBjSRDyPL/i",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/slmisthasna/healet-html/blob/main/kasir_py.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "harga: int = 15000\n",
+        "jumlah: int = 3\n",
+        "\n",
+        "total: int = harga * jumlah\n",
+        "diskon: float = total * 10 / 100\n",
+        "bayar: float = total - diskon\n",
+        "\n",
+        "print(\"=== PROGRAM KASIR ===\")\n",
+        "print(\"Harga  : Rp\", harga)\n",
+        "print(\"Jumlah :\", jumlah)\n",
+        "print(\"Total  : Rp\", total)\n",
+        "print(\"Diskon : Rp\", diskon)\n",
+        "print(\"Bayar  : Rp\", bayar)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gg6BVd5GVzSg",
+        "outputId": "cdaa2fab-a3bf-485a-a3c4-ad23b7062d5f"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "=== PROGRAM KASIR ===\n",
+            "Harga  : Rp 15000\n",
+            "Jumlah : 3\n",
+            "Total  : Rp 45000\n",
+            "Diskon : Rp 4500.0\n",
+            "Bayar  : Rp 40500.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
